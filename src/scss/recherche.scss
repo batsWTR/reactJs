@@ -1,0 +1,50 @@
+@import './variables.scss';
+
+
+.recherche{
+    p{
+        margin-bottom: 1rem;
+    }
+    
+    .inputSearch{
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
+        
+        i{
+            background-color: $grey-light;
+            padding: 0.5rem;
+            border-radius: 0.8rem 0 0 0.8rem;
+        }
+        input{
+            border-top: 0.2rem solid $grey-light;
+            border-bottom: 0.2rem solid $grey-light;
+            border-left: none;
+            border-right: none;
+            padding: 0.5rem 0;
+        }
+        button{
+            background-color: $blue;
+            color: white;
+            padding: 0.6rem;
+            border-radius: 0 0.8rem 0.8rem 0;
+        }
+    }
+
+    .filtres{
+        margin-bottom: 1rem;
+    }
+    .info{
+        display: flex;
+        justify-content: flex-start;
+        align-items: baseline;
+
+        i{
+            padding: 0.4rem;
+            color: $blue;
+            border: 2px solid $grey-light;
+            border-radius: 50%;
+            margin-right: 0.5rem;
+        }
+    }
+    
+}

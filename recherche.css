@@ -1,0 +1,54 @@
+.recherche p {
+  margin-bottom: 1rem;
+}
+
+.recherche .inputSearch {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.recherche .inputSearch i {
+  background-color: #f2f2f2;
+  padding: 0.5rem;
+  border-radius: 0.8rem 0 0 0.8rem;
+}
+
+.recherche .inputSearch input {
+  border-top: 0.2rem solid #f2f2f2;
+  border-bottom: 0.2rem solid #f2f2f2;
+  border-left: none;
+  border-right: none;
+  padding: 0.5rem 0;
+}
+
+.recherche .inputSearch button {
+  background-color: #0065fc;
+  color: white;
+  padding: 0.6rem;
+  border-radius: 0 0.8rem 0.8rem 0;
+}
+
+.recherche .filtres {
+  margin-bottom: 1rem;
+}
+
+.recherche .info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.recherche .info i {
+  padding: 0.4rem;
+  color: #0065fc;
+  border: 2px solid #f2f2f2;
+  border-radius: 50%;
+  margin-right: 0.5rem;
+}
+/*# sourceMappingURL=recherche.css.map */

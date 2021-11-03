@@ -1,0 +1,16 @@
+
+@import './variables.scss';
+
+
+.hebergement{
+    background-color: $grey-light;
+    border-radius: 1.5rem;
+    .title{
+        padding: 1.5rem;
+    }
+    &--container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}

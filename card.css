@@ -1,0 +1,35 @@
+.card {
+  width: 12rem;
+  height: 10rem;
+  margin: 1.5rem;
+  background-color: white;
+  border: 0.4rem solid #f2f2f2;
+  border-radius: 1rem;
+  padding: 0.2rem;
+}
+
+.card .img {
+  height: 60%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: 60%;
+  border-radius: 1rem 1rem 0 0;
+}
+
+.card h2 {
+  font-size: 0.8rem;
+  margin-top: 0.5rem;
+}
+
+.card .stars {
+  cursor: pointer;
+}
+
+.card .stars .blue {
+  color: #0065fc;
+}
+
+.card .stars .grey {
+  color: #f2f2f2;
+}
+/*# sourceMappingURL=card.css.map */
