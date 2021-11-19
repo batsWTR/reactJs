@@ -25,6 +25,7 @@ class App extends React.Component {
     }
   }
 
+
   rechVille = (ville)=>{
     this.setState({villeR: ville})
     let nb = ville.length * 6
